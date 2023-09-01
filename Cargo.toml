@@ -1,0 +1,11 @@
+[package]
+name = "actix_rs_playground"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+actix-web-actors = "4"
+actix-web = "4"
+actix = "0"
